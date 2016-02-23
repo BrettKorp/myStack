@@ -1,4 +1,7 @@
 *.class
+build.xml
+manifest.mf
+nbproject/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
