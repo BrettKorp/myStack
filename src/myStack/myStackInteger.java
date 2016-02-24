@@ -31,6 +31,11 @@ public class myStackInteger extends myStackGeneric<Integer>{
 
     @Override
     public Integer newElement(String input) {
-       return new Integer(0);
+       return new Integer(input);
+    }
+
+    @Override
+    public Integer zero() {
+        return new Integer(0);
     }
 }
