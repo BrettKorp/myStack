@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public abstract class GenericMatrixMap<E> extends myStackGeneric<E>{
   /** Abstract method for adding two elements of the matrices */
 
-private TreeMap<String,E[][]> matrices;
+private TreeMap<String,E[][]> matrices; //start working on this methods
 
   /** Add two matrices */
   public E[][] plusMatrix( E[][] matrix1, E[][] matrix2) {
